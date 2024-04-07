@@ -11,7 +11,9 @@ We have very high-resolution land cover data and the population census data, and
 Extra computational power.
 
 # What will we learn?
-Alex: Most of the GIS work was on GIS software. I would like to take advantage of this project to expose myself to using GIS in a Python environment. More specifically, I will learn how to work on geographical data cleaning, aggregation, and zonal statistics in Python. From a machine learning perspective, I would like to practice implementing a regression model. 
+Alex: Most of the GIS work was on GIS software. I would like to take advantage of this project to expose myself to using GIS in a Python environment. More specifically, I will learn how to work on geographical data cleaning, aggregation, and zonal statistics in Python. From a machine learning perspective, I would like to practice implementing a regression model. h
+
+Manny: I am learning a whole new application of CS, GIS! This is super interesting and I am taking this chance to explore how to use my current CS skills to a GIS workflow. I will implmement zonal statistics and clean geographical data as well as implement a regression model. By implmementing the regression model, I satisfy my goal of developing more theoretically and mathematically. 
 
 # Risk Statement
 Computational power could result in a potential failure to reach full deliverables. 
