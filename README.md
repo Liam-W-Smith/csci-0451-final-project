@@ -8,7 +8,14 @@ We have very high-resolution land cover data and the population census data, and
 
 
 # Resources Required
-Extra computational power.
+Our data sources are a landcover dataset published by CONUS that 
+
+We downloaded tract geometries directly into our Jupyter Notebook using the Pygris package.
+Finally, we downloaded the total population for each census tract within Connecticut from Social Explorer, which is available [here](data/population.csv).
+The first step of our data preparation will be to calculate the proportion of pixels within each tract that are each landcover class.
+This type of operation is known as a Zonal Statistic in GIS, and might be a computationally expensive operation on our 800 MB image.
+We may require additional computational power to make that operation work, but we do not anticipate the rest of our work requiring more computational effort than our personal computers can handle.
+
 
 # What will we learn?
 Alex: Most of the GIS work was on GIS software. I would like to take advantage of this project to expose myself to using GIS in a Python environment. More specifically, I will learn how to work on geographical data cleaning, aggregation, and zonal statistics in Python. From a machine learning perspective, I would like to practice implementing a regression model. 
