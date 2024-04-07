@@ -22,8 +22,11 @@ Alex: Most of the GIS work was on GIS software. I would like to take advantage o
 
 Manny: I am learning a whole new application of CS, GIS! This is super interesting and I am taking this chance to explore how to use my current CS skills to a GIS workflow. I will implmement zonal statistics and clean geographical data as well as implement a regression model. By implmementing the regression model, I satisfy my goal of developing more theoretically and mathematically. 
 
+Liam: I will use this project as an opportunity to learn how to implement a regression model from scratch and apply it to a geographic context. I will improve my theoretical machine learning skills as well as my ability to apply machine learning to spatial datasets. This will satisfy my goals of growing my knowledge of machine learning theory and implementation, as well as my desire to apply remote sensing towards spatial remote sensing data.
+
 # Risk Statement
-Computational power could result in a potential failure to reach full deliverables. 
+One potential risk is that we will not have enough computational power to compute the zonal statistic on our personal computers, failing to obtain the input data for our model.
+There is also some uncertainty regarding the degree to which landcover can predict population, so it is possible that our model will not perform particularly well.
 
 # Ethics Statement
 
