@@ -15,8 +15,6 @@ We have very high-resolution land cover data on the coastal states of the United
   
 Besides the Python package and the Jupyter Notebook, we would also like to create a webpage that will present the workflow of the process. This could be helpful for us to enrich our portfolio webpage. Our partial success will be building up a machine-learning model on a census tract scale. We want to include how precise we were in predicting the population in our testing census tract and investigate the characteristics of the tracts that are successfully and not successfully predicted. In an even less favorable scenario when we are unable to get the computational-heavy zonal statistics step done, we can still write down the code for this step in Python and implement it in GIS software or other places. If time permits and we have strong computational infrastructure, we may build a model on a census block scale, a smaller geometry compared to tracts. In this case, we would compare the results of the predictions in two scales and offer insights on what is the best scale to implement the machine learning model that predicts population density.  
 
-
-
 # Resources Required
 Our first data source is 1-meter resolution landcover imagery covering the entire state of Connecticut.
 Derived from NAIP, the data has already been processed such that every pixel represents a certain class of landcover.
@@ -34,7 +32,7 @@ Alex: Most of my GIS work was implemented on GIS software. I would like to take 
 
 Manny: I am learning a whole new application of CS, GIS! This is super interesting and I am taking this chance to explore how to use my current CS skills to a GIS workflow. I will implement zonal statistics and clean geographical data as well as implement a regression model. By implementing the regression model, I satisfy my goal of developing more theoretically and mathematically. 
 
-Liam: I will use this project as an opportunity to learn how to implement a regression model from scratch and apply it to a geographic context. I will improve my theoretical machine-learning skills as well as my ability to apply machine learning-to spatial datasets. This will satisfy my goals of growing my knowledge of machine learning theory and implementation, as well as my desire to apply remote sensing to spatial remote sensing data.
+Liam: I will use this project as an opportunity to learn how to implement a regression model from scratch and apply it to a geographic context. I will improve my theoretical machine-learning skills as well as my ability to apply machine learning-to spatial datasets. This will satisfy my goals of growing my knowledge of machine learning theory and implementation, as well as my desire to apply machine learning to remote sensing data.
 
 # Risk Statement
 One potential risk is that we will not have enough computational power to compute the zonal statistic on our personal computers, failing to obtain the input data for our model.
