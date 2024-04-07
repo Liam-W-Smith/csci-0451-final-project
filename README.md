@@ -10,6 +10,12 @@ We have very high-resolution land cover data on the coastal states of the United
 
 
 # Planned Deliverables
+* Code explaining our data collection process
+* A jupyter notebook showcasing our package to analyze data
+### Full success 
+
+### Partial success
+
 
 # Resources Required
 Our data sources are a landcover dataset published by CONUS that 
