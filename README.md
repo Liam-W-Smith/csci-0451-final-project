@@ -12,6 +12,8 @@ We have very high-resolution land cover data on the coastal states of the United
 # Planned Deliverables
 * Code explaining our data collection process
 * A jupyter notebook showcasing our package to analyze data
+* 
+Besides the Python package and the Jupyter Notebook, we would also like to create a webpage that will present the workflow of the process. This could be helpful for us to enrich our portfolio webpage. Our partial success will be building up a machine-learning model on a census tract scale. We want to include how precise we were in predicting the population in our testing census tract and investigate the characteristics of the tracts that are successfully and not successfully predicted. In an even less favorable scenario when we are unable to get the computational-heavy zonal statistics step done, we can still write down the code for this step in Python and implement it in GIS software or other places. If time permits and we have strong computational infrastructure, we may build a model on a census block scale, a smaller geometry compared to tracts. In this case, we would compare the results of the predictions in two scales and offer insights on what is the best scale to implement the machine learning model that predicts population density.  
 ### Full success 
 
 ### Partial success
