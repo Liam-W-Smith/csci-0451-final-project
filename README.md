@@ -9,10 +9,12 @@ We have very high-resolution land cover data and the population census data, and
 # Planned Deliverables
 
 # Resources Required
-Our data sources are a landcover dataset published by CONUS that 
+Our first data source is 1-meter resolution landcover imagery covering the entire state of Connecticut.
+Derived from NAIP, the data has already been processed such that every pixel represents a certain class of landcover.
+At over 800 MB, the dataset is too large to share via GitHub, but you can download it yourself by clicking on the first option at [this link](https://coastalimagery.blob.core.windows.net/ccap-landcover/CCAP_bulk_download/High_Resolution_Land_Cover/Phase_2_Expanded_Categories/Legacy_Land_Cover_pre_2024/CONUS/index.html).
 
-We downloaded tract geometries directly into our Jupyter Notebook using the Pygris package.
-Finally, we downloaded the total population for each census tract within Connecticut from Social Explorer, which is available [here](data/population.csv).
+Our other data sources are the geometries and population data on the Census tract level for the state of Connecticut.
+We downloaded tract geometries directly into [our Jupyter Notebook](code/final_project.ipynb) using the Pygris package, and we downloaded the population data from Social Explorer, storing it [here](data/population.csv).
 The first step of our data preparation will be to calculate the proportion of pixels within each tract that are each landcover class.
 This type of operation is known as a Zonal Statistic in GIS, and might be a computationally expensive operation on our 800 MB image.
 We may require additional computational power to make that operation work, but we do not anticipate the rest of our work requiring more computational effort than our personal computers can handle.
