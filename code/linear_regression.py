@@ -25,6 +25,9 @@ class RidgeRegression:
         y_bar = torch.mean(y)
         return 1 - torch.sum((y - y_hat)**2)/torch.sum((y - y_bar)**2)
     
-    # rmse?
-    # p-val?
+    # coefs standard error
+    # coefs test statistic
+    # coefs p-val
+
+    # adjusted R^2?
 
